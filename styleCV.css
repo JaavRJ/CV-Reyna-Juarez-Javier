@@ -1,0 +1,215 @@
+
+
+nav{
+    display:grid;
+    grid-template-columns: (250px, 2fr, 60px);
+    align-items: center;
+    background: rgb(0, 0, 0);
+    font-family: sans-serif;
+    position:fixed;
+    top:0;
+    left: 0;
+    width:101%;
+    margin: 0;
+    }
+
+.titulo{
+    animation-duration: 6s;
+    animation-name: slidein;
+    animation-iteration-count:initial;
+    animation-direction: alternate;
+}
+
+@keyframes slidein{
+    from{
+    margin-left: 100%;
+    width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
+.logo{
+    width: 250px;
+    height: 60px;
+}
+
+.logoGitHub{
+    width: 60px;
+    height: 60px;
+}
+
+nav .barnav{
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+    margin-right: 10px;
+    margin-left: 70px;
+}
+
+nav .barnav button{
+    padding: 10px 20px;
+    width: 350px;
+    font-size: large;
+}
+
+nav .barnav button:hover{
+    background-color: rgb(35, 35, 35);
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+nav .barnav button{
+    cursor: pointer;
+    border-radius: 50px;
+    outline: none;
+    background:#000000;
+    color: aliceblue;
+    font-weight: 300;
+    
+}
+
+.foto{
+    display: flex;
+    margin: 27px;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+       
+}
+
+h1{
+    font-family:monospace;
+    font-size: 50px;
+    color:rgb(100, 92, 215);
+    text-align: center;
+    font-weight:bold;
+}
+
+body {
+    display: grid;
+    background: #ffffff;
+    color: #666666;
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
+}
+p{
+    font-family:arial;
+    color:rgb(0, 0, 0);
+
+}
+
+.datos{    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.name{
+    color: #171717;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.sd{
+    color: #666666;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+.ani1{
+    animation-duration: 3s;
+    animation-name: slidein1;
+    animation-iteration-count:initial;
+    animation-direction:normal;
+}
+
+@keyframes slidein1{
+    from{
+    margin-left: 100%;
+    width: 300%;
+    }
+    to{
+        margin-left: 100%;
+        width: 100%;
+    }
+}
+
+.ani2{
+    animation-duration: 4s;
+    animation-name: apear1;
+    animation-iteration-count:initial;
+    animation-direction:normal;
+}
+
+@keyframes apear1{
+    from{
+    opacity: 0;
+    }
+    to{
+    opacity: 1;
+    }
+}
+
+.des{
+    align-items: center;
+    position: relative;
+    color: #757575;
+    font-weight:bolder;
+    font-size:x-large;
+    font-family: monospace;
+}
+
+.exp{
+    position: relative;
+    justify-content: left;
+    font-size:xx-large;
+    left: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(100, 92, 215);    
+    width: 500px;
+}
+
+.cajas{
+    width: 500px;
+    left: 30%;
+    padding-left: 15%;
+}
+
+.listitas{
+    font-size: x-large;
+    font-family: monospace;
+    color: #292828;
+    left: 15%;
+    font-weight: bold;
+}
+
+.listitas h3{
+    color: #757575;
+}
+
+
+
+ul{
+    left: 5rem;
+    list-style-type: none;
+}
+  
+ul li{
+    padding-left: 2rem;
+    background-image: url(listas.png);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
