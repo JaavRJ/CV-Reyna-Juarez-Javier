@@ -1,3 +1,4 @@
+
 .nav, .menu {
     display: flex;
     justify-content:left;
@@ -80,6 +81,7 @@
 .nav input:checked ~ span:nth-child(3) {
     transform: translateY(0) rotate(45deg);
 }
+
 
 .titulo{
     animation-duration: 6s;
@@ -436,6 +438,14 @@ p{
     padding-right: 5%;
     text-align: center;
     display: flex;
+    justify-content: center;
+}
+
+.ejemplo-html{
+    width: 650px;
+    height: 500px;
+   
+    padding-top: 10%;
 }
 
 .text-html h2{
@@ -465,12 +475,6 @@ p{
     padding-right: 10%;
 }
 
-.ejemplo-html{
-    width: 650px;
-    height: 500px;
-    padding-left: 14%;
-    padding-top: 10%;
-}
 
 .sect-git{
     justify-content: center;
@@ -540,4 +544,169 @@ p{
     padding-top: 30px;   
     padding-left: 20%;
     justify-content: center;
+}
+
+.framesito{
+    height: 900px;
+    width: 900px;
+    border: 0px solid;
+    padding-top: 40px;
+    animation-duration: 1s;
+}
+
+.ejemplo-init{
+    width: 700px;
+    height: 200px;
+    padding-top: 5%;
+}
+
+.ejemplo-status{
+    width: 450px;
+    height: 255px;
+    padding-top: 5%;
+}
+
+.ejemplo-branch{
+    width: 500px;
+    height: 300px;
+    padding-top: 5%;
+}
+
+.list-check{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    text-align: justify;
+}
+
+.list-check ul{
+    width: 900px;
+  }
+  
+.list-check ul li{
+    display: flex;
+    padding-left: 4rem;
+    background-image: url(img/proximo.png);
+    background-position: 5% 1%;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding-bottom: 1ex;
+    color: #969191;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+}
+
+.text-git{
+    height: 1000px;
+    width: 1000px;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    color: #1d1c1c;
+    font-family: monospace;
+    text-align: center;
+    border-radius:20px;
+    margin-right: 10px;
+}
+
+.cont-css{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.cont-img-css{
+    display: flex;
+}
+
+.fotocss{
+    width: 500px;
+    height: 350px;
+}
+
+.his-css{
+    background-color: #000000;
+    color: #ebebeb;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    padding-top: 40px;
+}
+
+.texto-css-hist{
+    align-items: center;
+    color: #dadada;
+    font-size:x-large;
+    font-family: monospace;
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    padding-left: 15%;
+}
+
+.texto-css-hist2{
+    align-items: center;
+    color: #525252;
+    font-size:x-large;
+    font-family: monospace;
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    padding-left: 15%;
+}
+
+.cosas2{
+    align-items: center;
+    color: #575757;
+    font-size:x-large;
+    font-family: monospace;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.cosas2 ul{
+    width: 900px;
+  }
+  
+.cosas2 ul li{
+    display: flex;
+    padding-left: 4rem;
+    background-image: url(img/flecha3.png);
+    background-position: 5% 1%;
+    background-size: 1.3rem 1.3rem;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding-bottom: 1ex;
+    color: #2b2a2a;
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer{
+    height: 150px;
+    background-color: #000000;
 }
