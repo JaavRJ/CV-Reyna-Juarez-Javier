@@ -291,7 +291,7 @@ ul li{
 .cajas2{
     width: 400px;
     left: 55%;
-    top: -360px;
+    top: -546px;
     align-items: center;
     display:block;
     justify-content: center;
@@ -310,5 +310,99 @@ ul li{
     color: #757575;
 }
 
+.pasa{
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+}
+
+.fotobatiz{
+    width: 500px;
+    height: 350px;
+    left: 10%;
+    opacity: 0.5;    
+}
+.fotobatiz:hover{
+    opacity: 1;
+}
+
+.fotobatiz, .fotobatiz:hover, .cont-pasa, .cont-pasa:hover {
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
 
 
+.cont-pasa{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 50px;
+}
+
+.cont-lis{
+    width: 250px;
+    left: 80%;  
+    text-align: justify;
+}
+.cosas{
+    height: 600px;
+    justify-content: center;
+}
+
+.text-pasa{    
+    font-size: xx-large;
+    font-family: monospace;
+    color: #292828;
+    left: 70%;
+}
+
+.cont-lis ul{
+    left: 5rem;
+    list-style-type: none;
+}
+  
+.cont-lis ul li{
+    padding-left: 2rem;
+    background-image: url(img/listas.png);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.html-sect{
+    justify-content: center;
+    align-items: center;
+    padding-left: 30%;
+    width: 700px;
+}
+
+.quehtml{
+    top: 100px;
+    height: 140px;
+    width: 80%;
+    background-color: #000000;
+    color: #ebebeb;
+    font-weight: 600;
+    font-family: monospace;
+    border-radius:20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top:0.3%;
+}
+.text-html{
+    height: 500px;
+    width: 700px;
+    background-color: #cccccc;
+    color: #1d1c1c;
+    font-weight: 600;
+    font-family: monospace;
+    text-align: center;
+    border-radius:20px;
+}
+
+.text-html-sect{
+    padding-left: 340px;
+    padding-top: 60px;
+}
