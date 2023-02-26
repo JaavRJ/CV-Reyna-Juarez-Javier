@@ -167,6 +167,7 @@ p{
     display: flex;
     justify-content: center;
     z-index: 1;
+    padding-left: 0%;
 }
 
 .name{
@@ -224,8 +225,8 @@ p{
     font-weight:bolder;
     font-size:x-large;
     font-family: monospace;
-    padding-left: 5%;
     text-align: center;
+    width: 800px;
 }
 
 .exp{
@@ -260,14 +261,14 @@ p{
 
 
 
-ul{
+.cosas ul{
     left: 5rem;
     list-style-type: none;
     padding-inline-start: 40px;
     width: 300px;
 }
   
-ul li{
+.cosas ul li{
     padding-left: 2rem;
     background-image: url(img/listas.png);
     background-position: 0 0;
@@ -313,7 +314,13 @@ ul li{
 .pasa{
     align-items: center;
     justify-content: center;
-    top: 0px;
+    padding-top: 5%;
+}
+
+.obj{
+    align-items: center;
+    justify-content: center;
+    padding-top: 0%;
 }
 
 .fotobatiz{
@@ -359,6 +366,7 @@ ul li{
 .cont-lis ul{
     left: 5rem;
     list-style-type: none;
+    width: 300px;
 }
   
 .cont-lis ul li{
@@ -368,20 +376,26 @@ ul li{
     background-size: 1.6rem 1.6rem;
     background-repeat: no-repeat;
     justify-content: center;
+    padding-bottom: 1ex;
 }
 
 .html-sect{
     justify-content: center;
     align-items: center;
-    padding-left: 30%;
-    width: 700px;
+    width: 100%;
+    display: flex;
+    padding-top: 200px;
 }
 
 .quehtml{
     top: 100px;
     height: 140px;
-    width: 80%;
-    background-color: #000000;
+    width: 40%;
+    background-color: #ffffff;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
     color: #ebebeb;
     font-weight: 600;
     font-family: monospace;
@@ -389,20 +403,141 @@ ul li{
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding-top:0.3%;
 }
 .text-html{
-    height: 500px;
-    width: 700px;
-    background-color: #cccccc;
+    height: 2700px;
+    width: 1000px;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
     color: #1d1c1c;
-    font-weight: 600;
     font-family: monospace;
     text-align: center;
     border-radius:20px;
+    margin-right: 10px;
 }
 
 .text-html-sect{
-    padding-left: 340px;
-    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.texto-html{
+    align-items: center;
+    color: #575757;
+    font-size:x-large;
+    font-family: monospace;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    display: flex;
+}
+
+.text-html h2{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+.text-html ul{
+  width: 900px;
+}
+
+.text-html ul li{
+    display: flex;
+    padding-left: 4rem;
+    background-image: url(img/proximo.png);
+    background-position: 5% 1%;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding-bottom: 1ex;
+    color: #969191;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.ejemplo-html{
+    width: 650px;
+    height: 500px;
+    padding-left: 14%;
+    padding-top: 10%;
+}
+
+.sect-git{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+}
+
+.barra-git{
+    background-color: #ffffff;
+    width: 120%;
+    height: 70px;
+    justify-content: center;
+    display: grid;
+    padding-top: 1%;
+    left: -20px;
+}
+
+.sect-git ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    justify-content: center;
+    display: flex;
+}
+
+.sect-git li {
+    float: left;
+}
+
+.sect-git li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: x-large;
+    border-radius: 40px;
+}
+
+.sect-git li a:hover:not(.active) {
+    background-color: #6558db;
+    transition-duration: 1s;
+    color: white;
+}
+
+.text-git-sect{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    text-align: justify;
+}
+
+.des-git{
+    align-items: center;
+    color: #757575;
+    font-weight:bolder;
+    font-size:x-large;
+    font-family: monospace;
+    text-align: center;
+    width: 800px;
+    padding-top: 30px;   
+    padding-left: 20%;
+    justify-content: center;
 }
